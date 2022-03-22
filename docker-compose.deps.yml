@@ -1,0 +1,9 @@
+version: '3'
+services:
+  db:
+    image: postgres:13.6
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=todoozie_db
+    ports:
+      - "5432:5432"
