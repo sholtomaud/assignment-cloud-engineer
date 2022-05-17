@@ -1,7 +1,7 @@
 The [repository](https://github.com/source-ag/assignment-cloud-engineer) for the assignment
-is public and Github does not allow the creation of private forks for public repositories.
+is public and GitHub does not allow the creation of private forks for public repositories.
 
-The correct way of creating a private frok by duplicating the repo is documented
+The correct way of creating a private fork by duplicating the repo is documented
 [here](https://help.github.com/articles/duplicating-a-repository/).
 
 For this assignment the commands are:
@@ -33,4 +33,4 @@ For this assignment the commands are:
     git clone git@github.com:<your_username>/source-assignment-cloud-engineer.git
     ```
 
- 6. Add the reviewers as collaborators to your new repository: DandyDev, uzitovb, paula13
+ 6. Add the required reviewers (see email) as collaborators to your new repository

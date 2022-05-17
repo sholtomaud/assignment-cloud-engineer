@@ -6,8 +6,8 @@ the infrastructure that is needed to run the application.
 
 ## Instructions
 
-As a side-hustle, Source has built an amazing and game-chaning TODO-app: _Todoozie_. The backend
-of Todoozie needs to deployed to the AWS cloud in a scalable and reproducable way. We are strong
+As a side-hustle, Source has built an amazing and game-changing TODO-app: _Todoozie_. The backend
+of Todoozie needs to deployed to the AWS cloud in a scalable and reproducible way. We are strong
 believers in _infrastructure-as-code_ and we hope you are too! So your mission - should you choose
 to accept it - is to make sure our backend is deployed completely through _code_. This means that
 we should be able to reproduce the deployment completely without having to touch the AWS Web
@@ -31,7 +31,7 @@ We have made things easy for you by already Dockerizing the application. But tha
 you _have_ to use Docker to run the application on AWS. You can choose whatever platform/service
 you think fits this application best.
 
-You can start the application and a PostgreSQL database locally to test thigns out. You can do this
+You can start the application and a PostgreSQL database locally to test things out. You can do this
 by running Docker Compose from the root of this repository:
 
 ```bash
@@ -49,7 +49,7 @@ solution.
 
 - The application has authentication built in, but you can add an extra layer of security
   by requiring API key & secret for accessing the API
-- Build a CI/CD pipeline using Github Actions to deploy new versions of the application:
+- Build a CI/CD pipeline using GitHub Actions to deploy new versions of the application:
   - When new code is pushed, build new Docker images
   - Publish the Docker images somewhere
   - Deploy the new Docker image in the AWS setup you created
